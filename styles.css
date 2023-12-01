@@ -101,6 +101,19 @@ header {
     margin-right: 5px; /* Adjust the space between the title and the icon */
 }
 
+/* Media Query for Tablets and Smaller Screens */
+@media only screen and (max-width: 768px) {
+    .project {
+        width: calc(50% - 20px); /* Adjust width for smaller screens */
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 480px) {
+    .project {
+        width: 100%; /* Full width for mobile devices */
+    }
+}
 
 /* Content Section */
 #content {
