@@ -1,0 +1,133 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-info img {
+    border-radius: 50%;
+    max-width: 100px;
+}
+
+.header-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+
+/* About Section */
+#about {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+#about h2 {
+    color: #333;
+}
+
+#about p {
+    font-size: 18px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 0;
+}
+
+#projects h2 {
+    color: #333;
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    width: calc(33.33% - 20px); /* Adjust the width based on your preference */
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.project h3 {
+    color: #007bff;
+    margin-bottom: 10px; /* Add margin between title and icon */
+    display: flex;
+    align-items: center; /* Align items vertically in the flex container */
+    cursor: pointer; /* Add pointer cursor to indicate clickability */
+}
+
+.project h3 a, .project h3 i {
+    color: inherit; /* Inherit the color from the parent (h3) */
+    text-decoration: none;
+}
+
+.project p {
+    font-size: 16px;
+}
+
+.project a {
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block; /* Ensure links are clickable within the container */
+    width: 100%; /* Make the entire block clickable */
+}
+
+.project-icon {
+    margin-right: 5px; /* Adjust the space between the title and the icon */
+}
+
+
+/* Content Section */
+#content {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+#content h2 {
+    color: #333;
+}
+
+.blog-post {
+    margin-bottom: 30px;
+    display: block; /* Make the entire block clickable */
+    color: #007bff; /* Set the color for the entire block */
+    text-decoration: none; /* Remove the underline */
+}
+
+.blog-post:hover {
+    text-decoration: underline; /* Underline the block on hover for visual feedback */
+}
+
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}

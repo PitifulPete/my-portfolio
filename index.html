@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peter Oyebanji</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="home">
+    <div class="container">
+        <div class="header-content">
+            <div class="header-info">
+                <img src="images/peter-header.png" alt="An image showing my face">
+            </div>
+            <div class="header-links">
+                <a href="https://www.linkedin.com/in/peter-oyebanji-017227161/">
+                    <img src="images/linkedin.png" alt="LinkedIn icon">
+                    Connect
+                </a>
+                <a href="https://github.com/PitifulPete">
+                    <img src="images/github.png" alt="GitHub icon">
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    <!-- About Section -->
+<section id="about">
+    <div class="container">
+        <h2>Hello, I'm Peter Oyebanji</h2>
+        <p>
+            A technical writer in the software industry. I enjoy creating technical documents and streamlining acess to them. Beyond that, i enjoy extending my role to the creation of technical blog contents that give insight and facilitate comprehension. I earnestly believe that content in all its form can be an organization's primary means of attaining user-friendliness.  
+        </p>
+        <!-- Add any additional information or images -->
+    </div>
+</section>
+
+
+    <!-- Projects Section -->
+<section id="projects">
+    <div class="container">
+        <h2>Projects</h2>
+
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div id="project1" class="project">
+                <h3>Jira Process Documents <span class="project-icon"><i class="fa-brands fa-github"></i></span> <a href="https://github.com/PitifulPete/jira-process-document">GitHub</a></h3>
+                <p>
+                    I created an internal process document detailing how I would document a new Jira software feature if I were tasked to. I created this using the Docs as Code approach.
+                </p>
+            </div>
+
+            <!-- Project 2 -->
+            <div id="project2" class="project">
+                <h3>SleekBio User Guide <span class="project-icon"> <i class="fa-brands fa-google"></i></span> <a href="https://docs.google.com/document/d/1CSktWw3JF7No4j-qoqDZtMQ4IV49roOFrLR4Hmy5yhw/edit?usp=sharing">Google Docs</a></h3>
+                <p>
+                    I created a user guide illustrating how to use SleekBio. I created this using Google Docs and i followed the Google developer documentation style guide.
+                </p>
+            </div>
+
+            <!-- Project 3 -->
+            <div id="project3" class="project">
+                <h3>Open Weather API <span class="project-icon"><i class="fa-solid fa-link"></i></span> <a href="https://pitifulpete.stoplight.io/docs/openweathermap/7c3dfytahcxha-open-weather-map-api">Stoplight</a></h3>
+                <p>
+                    I created an API doc illustrating how to get weather forecast using Open Weather API. Created this with Stoplight as a part of my API learning course.
+                </p>
+            </div>
+        </div>
+
+        <!-- Add more projects as needed -->
+    </div>
+</section>
+
+
+<!-- Content Section -->
+<section id="content">
+    <div class="container">
+        <h2>Web Content</h2>
+
+        <!-- Blog Post 1 -->
+        <a href="https://www.weareinnova.ng/post/tips-to-migrate-from-atlassian-server-to-cloud" class="blog-post">
+            <h3>8 Tips That Will Help You Migrate Smoothly to Atlassian Cloud</h3>
+        </a>
+
+        <!-- Blog Post 2 -->
+        <a href="https://www.weareinnova.ng/post/the-power-of-the-atlassian-suite" class="blog-post">
+            <h3>The Power of the Atlassian Suite</h3>
+        </a>
+
+        <!-- Blog Post 3 -->
+        <a href="https://peteverse.substack.com/" class="blog-post">
+            <h3>My Personal Substack Page Where I Dump my Thoughts About Music</h3>
+        </a>
+
+        <!-- Add more blog posts as needed -->
+    </div>
+</section>
+
+
+<!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Peter Oyebanji. All rights reserved.</p>
+    </footer>
+
+<!-- Add your external scripts or JavaScript files here -->
+<script>
+    // Get all project elements
+    const projects = document.querySelectorAll('.project');
+
+    // Iterate through each project
+    projects.forEach(project => {
+        // Get the h3, icon, and link elements
+        const h3 = project.querySelector('h3');
+        const icon = project.querySelector('.project-icon i');
+        const link = project.querySelector('a');
+
+        // Add a click event listener to the h3
+        h3.addEventListener('click', () => {
+            // Redirect to the link's URL
+            window.location.href = link.href;
+        });
+
+        // Add a click event listener to the icon
+        icon.addEventListener('click', () => {
+            // Redirect to the link's URL
+            window.location.href = link.href;
+        });
+    });
+</script>
+
+</body>
+</html>
