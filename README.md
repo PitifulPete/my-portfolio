@@ -1,11 +1,11 @@
 # My Portfolio Website
 
-Welcome to the repository of my personal portfolio website! This project showcases my works and provides means to contact me and know more about me. It's created with HTML and CSS, and it's designed to be simple, clean, and responsive. 
+Welcome to the repository of my personal portfolio website! This project showcases my works and provides means to contact me. It's created with HTML and CSS, and it's designed to be simple, clean, and responsive. 
 
 ## Project components
 
 ### 1. Header section
-The header section displays a picture of me with links to my LinkedIn and GitHub profiles.
+The header section displays a picture of me and provides links to my LinkedIn and GitHub profiles.
 
 ### 2. About section
 The about section introduces me and provides details about my capabilities and motivations.
@@ -40,7 +40,7 @@ In the projects section, both the project title (h3) and the associated link ico
 
 What am i saying here? If you click on any part of the project title, you can open the link it's associated with. But if you right-click on any part other than the <a> tag, you wil not get the option to open in a new tab. And the reason why is because i had to manipulate other parts to become clickable with JS while the <a> tag is just typical link implementation. 
 
-Why didn't i just do it the normal way? Maybe it's bad coding, not sure. But i wanted to maintain the structure i already implemented and simultaneously make the entire project title clickable. Hence, the result. Nothing major, just thought you should know. 
+Why didn't i just do it the normal way? I wanted to maintain a structure i already implemented and simultaneously make the entire project title clickable. Hence, the result. Nothing major, just thought you should know. 
 
 ## AOB
 Feel free to reach out if you have any questions or need further assistance. Enjoy
