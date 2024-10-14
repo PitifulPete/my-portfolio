@@ -14,7 +14,7 @@ The about section introduces me and provides details about my capabilities and m
 The project section highlights some of the key projects i've worked on. Each project includes a title, description, and a relevant link.
 
 ### 4. Content section
-The content section features some of the blog contents i've written or co-written, and a link to my personal substack page.
+The content section highlights some of the blog contents i've written or co-written.
 
 ### 5. Footer section
 The footer section contains a copyright notice.
@@ -32,15 +32,7 @@ The footer section contains a copyright notice.
 2. Create a new site on Netlify.
 3. Set the build command to your preferred static site generator or leave it blank if it's just HTML/CSS --- that is, if you are maintaining the current structure.
 4. Specify the publish directory as the folder containing your HTML files.
-5. Deploy your site!
-
-## Caveat
-
-In the projects section, both the project title (h3) and the associated link icon possess typical link capabilities. However, due to the specific implementation using JavaScript to enable clicking on them, they do not inherit the ability to open links in a new tab when right-clicked. 
-
-What am i saying here? If you click on any part of the project title, you can open the link it's associated with. But if you right-click on any part other than the <a> tag, you wil not get the option to open in a new tab. And the reason why is because i had to manipulate other parts to become clickable with JS while the <a> tag is just typical link implementation. 
-
-Why didn't i just do it the normal way? I wanted to maintain a structure i already implemented and simultaneously make the entire project title clickable. Hence, the result. Nothing major, just thought you should know. 
+5. Deploy your site! 
 
 ## AOB
 Feel free to reach out if you have any questions or need further assistance. Enjoy

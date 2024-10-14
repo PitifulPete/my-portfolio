@@ -75,15 +75,18 @@ header {
 
 .project h3 {
     color: #007bff;
-    margin-bottom: 10px; /* Add margin between title and icon */
+    margin-bottom: 10px;
     display: flex;
     align-items: center; /* Align items vertically in the flex container */
-    cursor: pointer; /* Add pointer cursor to indicate clickability */
 }
 
 .project h3 a, .project h3 i {
     color: inherit; /* Inherit the color from the parent (h3) */
     text-decoration: none;
+}
+
+.project a {
+    margin-left: 3px; /* Adjust the space between the icon and the link text */
 }
 
 .project p {
@@ -98,7 +101,7 @@ header {
 }
 
 .project-icon {
-    margin-right: 5px; /* Adjust the space between the title and the icon */
+    margin-left: 5px; /* Adjust the space between the title and the icon */
 }
 
 /* Media Query for Tablets and Smaller Screens */
